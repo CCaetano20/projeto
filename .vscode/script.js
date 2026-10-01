@@ -4,13 +4,13 @@ function toggleMode() {
 
   const img = document.querySelector("#profile img")
   if (html.classList.contains("light")) {
-    img.setAttribute("src", "./avatar-light.png")
+    img.setAttribute("src", "./assets/avatar-light.png")
   } else {
-    img.setAttribute("src", "./Avatar.png")
+    img.setAttribute("src", "./assets/Avatar.png")
   }
 
   const body = document.querySelector("#profile img")
-  if (body.documentbody.contains("./Avatar.png")) {
+  if (body.documentbody.contains("./assets/Avatar.png")) {
     document.body.setAttribute(
       "alt",
       "Foto de Mayke Brito sorrindo, usando óculos e camisa preta, barba e fundo azul",
